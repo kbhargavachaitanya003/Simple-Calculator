@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Button, Grid, TextField } from '@mui/material';
 import { useForm } from 'react-hook-form';
-import './Calculator.css'
+import '../Styles/Calculator.css'
 
 const Calculator: React.FC = () => {
   const { register, setValue, watch } = useForm<{ display: string }>({
